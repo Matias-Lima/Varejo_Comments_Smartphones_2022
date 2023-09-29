@@ -10,6 +10,8 @@ st.title('Comments Per Day Visualization')
 @st.cache_data
 def carregar_dados():
     tabela = pd.read_csv("Comments_counts_Smartphone_2022.csv")
+
+
     return tabela
 
 with st.container():
